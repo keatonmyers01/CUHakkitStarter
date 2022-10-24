@@ -37,6 +37,7 @@ def read_temp():
     pass
 
 def main():
+    ##TODO probably should loop this with a delay so you can see change over time
     cel, far = read_temp()
 
 
